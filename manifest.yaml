@@ -11,4 +11,4 @@ applications:
     #path: ./spring-music.jar
     env:
       PINPOINT_AGENT_PACKAGE_DOWNLOAD_URL: https://github.com/naver/pinpoint/releases/download/1.8.4/pinpoint-agent-1.8.4.tar.gz
-      PINPOINT_CONFIG_URL: https://github.com/yunjaecho/pinpoint_agent_repo/blob/master/pinpoint.config-1.8.4"
+      PINPOINT_CONFIG_URL: https://github.com/yunjaecho/pinpoint_agent_repo/blob/master/pinpoint.config-1.8.4
