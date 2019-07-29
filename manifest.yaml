@@ -3,7 +3,7 @@ applications:
   - name: spring-music
     memory: 1G
     buildpacks:
-      - https://github.com/myminseok/java-pinpoint-buildpack
+      - https://github.com/yunjaecho/PINPOINT-JAVA-BUILDPACK-MASTER
     services:
       - pinpoint
     random-route: true
