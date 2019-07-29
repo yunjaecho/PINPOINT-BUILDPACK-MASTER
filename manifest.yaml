@@ -7,7 +7,7 @@ applications:
     services:
       - pinpoint
     random-route: true
-    path: ./spring-music.jar
+    path: ./build/lib/spring-music.jar
     #path: ./spring-music.jar
     env:
       PINPOINT_AGENT_PACKAGE_DOWNLOAD_URL: https://github.com/naver/pinpoint/releases/download/1.8.4/pinpoint-agent-1.8.4.tar.gz
