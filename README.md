@@ -174,9 +174,9 @@ Pinpoint Web Inspect 화면을 통해 해당 성능 지표들이 수집되어 �
 
 ![Sample App 브라우저 실행][pinpoint_image_02]
 
-![Sample App 브라우저 실행][pinpoint_server_1]
+![Sample App 브라우저 실행][pinpoint_image_03]
 
-![Sample App 브라우저 실행][pinpoint_server_2]
+![Sample App 브라우저 실행][pinpoint_image_04]
 
 
 * 위 과정들이 정상적으로 실행되지 않는 경우 로그를 확인한다.
@@ -203,4 +203,4 @@ se_time:0.004120268 app_id:"bf60a3b5-c937-4d9f-ae97-3f7a7ef81d24" app_index:"0" 
 [pinpoint_image_01]:/images/pinpoint_architecture.png
 [pinpoint_image_02]:/images/sample_app_load.png
 [pinpoint_image_03]:/images/pinpoint_server_1.png
-[pinpoint_image_03]:/images/pinpoint_server_2.png
+[pinpoint_image_04]:/images/pinpoint_server_2.png
