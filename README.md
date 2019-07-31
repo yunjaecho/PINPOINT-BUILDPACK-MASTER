@@ -44,6 +44,9 @@ Web App은 개방형 클라우드 플랫폼에 배포되며 Pinpoint Collector B
 Web App은 Pinpoint 에이전트 와의 통합을 제공하는 Cloud Foundry의 최종 빌드 팩입니다. 
 이 빌드 팩은 java-buildpack 과 같은 다중 빌드 팩을 지원하는 최종 빌드 팩에서 작동합니다.
 
+Pinpoint Java Build Pack Git 주소 : https://github.com/yunjaecho/PINPOINT-JAVA-BUILDPACK-MASTER.git
+
+
 ### <div id='21'> 2.1. Sample Web App 구조
 
 spring-music Web App은 PaaS-TA에 App으로 배포가 된다. 배포된
