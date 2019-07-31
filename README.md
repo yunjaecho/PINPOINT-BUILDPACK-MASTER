@@ -179,6 +179,16 @@ $ cf logs spring-music --recent
 ```
    2019-07-31T04:05:08.53+0000 [RTR/1] OUT spring-music-proud-fossa.15.164.20.58.xip.io - [2019-07-31T04:05:08.528+0000] "GET /albums HTTP/1.1" 200 0 4669 "http://spring-music-proud-fossa.15.164.20.58.xip.io/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.0.0.231:55652" "10.0.41.242:61073" x_forwarded_for:"61.40.138.66, 10.0.0.231" x_forwarded_proto:"http" vcap_request_id:"f5da8972-f530-4bc8-7409-4db38e6befb7" response_time:0.006060672 app_id:"bf60a3b5-c937-4d9f-ae97-3f7a7ef81d24" app_index:"0" x_b3_traceid:"1218ff63be48b0e5" x_b3_spanid:"1218ff63be48b0e5" x_b3_parentspanid:"-" b3:"1218ff63be48b0e5-1218ff63be48b0e5"
    2019-07-31T04:05:08.53+0000 [RTR/1] OUT 
+se_time:0.004120268 app_id:"bf60a3b5-c937-4d9f-ae97-3f7a7ef81d24" app_index:"0" x_b3_traceid:"3b997ad67c040e09" x_b3_spanid:"3b997ad67c040e09" x_b3_parentspanid:"-" b3:"3b997ad67c040e09-3b997ad67c040e09"
+   2019-07-31T04:05:08.83+0000 [RTR/0] OUT 
+   2019-07-31T04:05:08.83+0000 [RTR/1] OUT spring-music-proud-fossa.15.164.20.58.xip.io - [2019-07-31T04:05:08.830+0000] "GET / HTTP/1.1" 304 0 0 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.0.0.231:55670" "10.0.41.242:61073" x_forwarded_for:"61.40.138.66, 10.0.0.231" x_forwarded_proto:"http" vcap_request_id:"8b7cfd48-5d14-4aaf-649c-93c2fc0d369a" response_time:0.004944938 app_id:"bf60a3b5-c937-4d9f-ae97-3f7a7ef81d24" app_index:"0" x_b3_traceid:"b2c53e3368320700" x_b3_spanid:"b2c53e3368320700" x_b3_parentspanid:"-" b3:"b2c53e3368320700-b2c53e3368320700"
+   2019-07-31T04:05:08.83+0000 [RTR/1] OUT 
+   2019-07-31T04:05:09.07+0000 [RTR/0] OUT spring-music-proud-fossa.15.164.20.58.xip.io - [2019-07-31T04:05:09.073+0000] "GET /appinfo HTTP/1.1" 200 0 48 "http://spring-music-proud-fossa.15.164.20.58.xip.io/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.0.0.231:55778" "10.0.41.242:61073" x_forwarded_for:"61.40.138.66, 10.0.0.231" x_forwarded_proto:"http" vcap_request_id:"7a92f28a-0811-4ae5-726a-d1a4d89bd1c4" response_time:0.004305851 app_id:"bf60a3b5-c937-4d9f-ae97-3f7a7ef81d24" app_index:"0" x_b3_traceid:"f3f582aaf770072c" x_b3_spanid:"f3f582aaf770072c" x_b3_parentspanid:"-" b3:"f3f582aaf770072c-f3f582aaf770072c"
+   2019-07-31T04:05:09.07+0000 [RTR/0] OUT 
+   2019-07-31T04:05:09.08+0000 [RTR/1] OUT spring-music-proud-fossa.15.164.20.58.xip.io - [2019-07-31T04:05:09.083+0000] "GET /albums HTTP/1.1" 200 0 4669 "http://spring-music-proud-fossa.15.164.20.58.xip.io/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.0.0.231:55676" "10.0.41.242:61073" x_forwarded_for:"61.40.138.66, 10.0.0.231" x_forwarded_proto:"http" vcap_request_id:"6c368d39-d025-43b5-51be-2405ef3bf3b0" response_time:0.005162675 app_id:"bf60a3b5-c937-4d9f-ae97-3f7a7ef81d24" app_index:"0" x_b3_traceid:"417447dcbe2bcc74" x_b3_spanid:"417447dcbe2bcc74" x_b3_parentspanid:"-" b3:"417447dcbe2bcc74-417447dcbe2bcc74"
+   2019-07-31T04:05:09.08+0000 [RTR/1] OUT 
+
+
 ```
 
 
