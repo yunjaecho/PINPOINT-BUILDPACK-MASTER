@@ -168,7 +168,8 @@ spring-music   started           1/1         1G       1G     spring-music-proud-
 
 Sample App(spring-music) urls 확인하고 IE/Chrome 브라우져에서 해당 URL로 정상적으로 동작 되지는 확인한다.
 
+![Sample App 브라우저 실행][pinpoint_image_02]
 
 [pinpoint_image_01]:/images/pinpoint_architecture.png
-[pinpoint_image_02]:/Service-Guide/images/pinpoint/pinpoint-image2.png
+[pinpoint_image_02]:/images/sample_app_load.png
 [pinpoint_image_03]:/Service-Guide/images/pinpoint/pinpoint-image3.png
