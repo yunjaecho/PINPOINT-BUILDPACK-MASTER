@@ -153,7 +153,7 @@ start command:   JAVA_OPTS="-agentpath:$PWD/.java-buildpack/open_jdk_jre/bin/jvm
 -------------------------------------------------
 
 Sample App(spring-music) cf push 정상적으로 완료 되었으면 Pinpoint Collector 서버 수집을 된다.
-
+ 
 ```
 $ cf apps
 ```
