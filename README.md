@@ -167,9 +167,23 @@ spring-music   started           1/1         1G       1G     spring-music-proud-
 ```
 
 Sample App(spring-music) urls 확인하고 IE/Chrome 브라우져에서 해당 URL로 정상적으로 동작 되지는 확인한다.
+Pinpoint Web urls 확인하고 IE/Chrome 브라우져 실행하여 Application 목록에 해당 app 등록 되었는지 확인한다.
+Pinpoint Web Inspect 화면을 통해 해당 성능 지표들이 수집되어 표시 되는지 확인한다.
 
 ![Sample App 브라우저 실행][pinpoint_image_02]
 
+* 위 과정들이 정상적으로 실행되지 않는 경우 로그를 확인한다.
+```
+$ cf logs spring-music --recent
+```
+```
+   2019-07-31T04:05:08.53+0000 [RTR/1] OUT spring-music-proud-fossa.15.164.20.58.xip.io - [2019-07-31T04:05:08.528+0000] "GET /albums HTTP/1.1" 200 0 4669 "http://spring-music-proud-fossa.15.164.20.58.xip.io/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Safari/537.36" "10.0.0.231:55652" "10.0.41.242:61073" x_forwarded_for:"61.40.138.66, 10.0.0.231" x_forwarded_proto:"http" vcap_request_id:"f5da8972-f530-4bc8-7409-4db38e6befb7" response_time:0.006060672 app_id:"bf60a3b5-c937-4d9f-ae97-3f7a7ef81d24" app_index:"0" x_b3_traceid:"1218ff63be48b0e5" x_b3_spanid:"1218ff63be48b0e5" x_b3_parentspanid:"-" b3:"1218ff63be48b0e5-1218ff63be48b0e5"
+   2019-07-31T04:05:08.53+0000 [RTR/1] OUT 
+```
+
+
+
 [pinpoint_image_01]:/images/pinpoint_architecture.png
 [pinpoint_image_02]:/images/sample_app_load.png
-[pinpoint_image_03]:/Service-Guide/images/pinpoint/pinpoint-image3.png
+[pinpoint_image_03]:/images/pinpoint_server_1.png
+[pinpoint_image_03]:/images/pinpoint_server_2.png
