@@ -5,9 +5,8 @@
   - 1.3. [시스템 구성도](#13)
   - 1.4. [참고자료](#14)
 2. [Sample Web App 연동 Pinpoint 연동](#2)
-  - 2.1. [Sample Web App 구조](#21)
-  - 2.2. [PaaS-TA에서 서비스 신청](#22)
-  - 2.3. [Sample Web App에 서비스 바인드 신청 및 App 확인](#23)
+  - 2.1. [Sample Web App 설치](#21)
+  - 2.2. [Sample Web App에 서비스 확인](#22)
 
 # <div id='1'> 1. 문서 개요
 ### <div id='11'> 1.1. 목적
@@ -47,7 +46,7 @@ Web App은 Pinpoint 에이전트 와의 통합을 제공하는 Cloud Foundry의 
 Pinpoint Java Build Pack Git 주소 : https://github.com/yunjaecho/PINPOINT-JAVA-BUILDPACK-MASTER.git
 
 
-### <div id='21'> 2.1. Sample Web App 구조
+### <div id='21'> 2.1. Sample Web App 
 
 spring-music Web App은 PaaS-TA에 App으로 배포가 된다. 배포된
 App에 endpoint url을 통해 브라우저로 해당 App을 실행시 Pinpoint APM 서버
@@ -152,7 +151,7 @@ start command:   JAVA_OPTS="-agentpath:$PWD/.java-buildpack/open_jdk_jre/bin/jvm
 ```
 
 
-### <div id='32'> 3.2. Sample Web App에 서비스 확인
+### <div id='22'> 2.2. Sample Web App에 서비스 확인
 -------------------------------------------------
 
 Sample App(spring-music) cf push 정상적으로 완료 되었으면 Pinpoint Collector 서버 수집을 된다.
