@@ -174,6 +174,11 @@ Pinpoint Web Inspect 화면을 통해 해당 성능 지표들이 수집되어 �
 
 ![Sample App 브라우저 실행][pinpoint_image_02]
 
+![Sample App 브라우저 실행][pinpoint_server_1]
+
+![Sample App 브라우저 실행][pinpoint_server_2]
+
+
 * 위 과정들이 정상적으로 실행되지 않는 경우 로그를 확인한다.
 ```
 $ cf logs spring-music --recent
