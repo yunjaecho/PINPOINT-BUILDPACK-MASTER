@@ -24,7 +24,9 @@ function indent() {
 #  env:
 #    PACKAGES: plotly_binary,etc-dependency
 function check_PACKAGES_env_variable() {
-
+    echo "Test staging-util.sh ##################"
+    
+    
     local PACKAGE_NAME_TO_CHECK=$1
     local FORCE_INSTALL=$2
     local DO_INSTALL="false"
