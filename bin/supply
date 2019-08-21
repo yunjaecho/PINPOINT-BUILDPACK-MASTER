@@ -58,7 +58,6 @@ else
   ## "https://raw.githubusercontent.com/myminseok/pinpoint_agent_repo/master/pinpoint.config-1.8.2" 
   wget -q $PINPOINT_CONFIG_URL -O pinpoint.config
   sed -i "s/127.0.0.1/$PINPOINT_COLLECTOR_IP/g" ./pinpoint.config
-  cat ./pinpoint.config
 fi
 
 topic "Configuring multi buildpack configuration to config.yml"
