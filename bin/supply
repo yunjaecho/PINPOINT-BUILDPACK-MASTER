@@ -26,6 +26,8 @@ INDEX_DIR=$4
 
 source $BIN_DIR/staging-util.sh
 
+echo "Test .supply ###########################"
+
 topic "Staging Pinpoint-buildpack"
 ## put code in <deps>/<index>
 
